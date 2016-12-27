@@ -1,0 +1,82 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: medium; /* force all text to be medium, so that we can then specify a relative size. */
+}
+
+.page-title
+{
+    text-align:center;
+    margin-bottom: 30px;
+    font-size: 175%; /* +75%, as defined by the assignment */
+}
+
+.meal-title
+{
+    position: relative ; 
+    float: right;
+    width: 100px;
+    border: 1px solid black;
+    margin: -1px;
+    clear : both ; /* important so that the text that follows the meal-title will then go to the next line */
+    text-align:center;
+    font-weight: bold;
+    font-size: 125%; /* +25%, as defined by the assignment */
+}
+
+#meal1
+{
+    background-color: pink;
+}
+
+#meal2
+{
+    background-color: darkred;
+    color: white;
+}
+
+#meal3
+{
+    background-color: orange;
+}
+
+.meal-detail
+{
+    padding: 5px;
+    clear: both;
+}
+
+.box {
+    margin: 10px;
+    background-color: gray;
+    border: 1px solid black;
+}
+
+/* Simple Responsive Framework. */
+
+.col-lg-4, .col-md-6 {
+    float: left;
+    position: relative ; 
+  }
+
+/********** Desktop view **********/
+@media (min-width: 992px) {
+    .col-lg-4 {
+        width: 33.33%;
+    }
+}
+
+/********** Tablet view **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+        width: 50%;
+    }
+}
+
+/********** Mobile view **********/
+@media (max-width: 767px) {
+ /*nothing specific*/
+}
