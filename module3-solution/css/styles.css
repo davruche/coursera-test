@@ -1,0 +1,39 @@
+
+
+#nav-list li{
+    background-color: dodgerblue;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+}
+
+.navbar-brand {
+  margin-top: -25px;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -10px;
+}
+
+.category-tile { 
+  position: relative;
+  overflow: hidden;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: lightskyblue;
+}
+
+.category-tile h3 {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+
+.category-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
